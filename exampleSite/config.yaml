@@ -8,6 +8,9 @@ title: Example Site
 disqusShortname: hugo-theme-stack
 googleAnalytics: "UI-you-google-analytics-tracking-id"
 
+# GA Tracking ID
+googleAnalytics:
+
 # Theme i18n support
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn
 DefaultContentLanguage: en
@@ -47,11 +50,16 @@ params:
     comments:
         enabled: true
         provider: disqus
+
         utterances:
             repo:
             issueTerm: pathname
             label:
-            theme: preferred-color-scheme
+
+        remark42:
+            host:
+            site:
+            locale:
 
     widgets:
         enabled:
